@@ -13,8 +13,7 @@ public class Main {
         System.out.println("Lista Inicial: "+listaInts +" Size "+ listaInts.size());
 
         while (it.hasNext()) {
-            Integer n = it.next();
-            if(n.equals(numQuitar))
+            if(it.next().equals(numQuitar))
                 it.remove();  
         }
         System.out.println("Lista sin "+numQuitar+" "+ listaInts+" Size " + listaInts.size());
