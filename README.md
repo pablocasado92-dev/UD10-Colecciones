@@ -13,5 +13,6 @@ Las actividades están organizadas en carpetas:
 - `A05` - Framework Collection. Crear 100 numeros aleatorios y eliminar los cincos(usando removeAll()).
 - `A06` - Framework Collection. Crear una colección y ordenar de menor a mayor y mayor a menor.
 - `A07` - Framework Collection. Manipulación de índices y elementos.
+- `A08` - Framework Collection. Búsqueda, comparación y ordenación
 
 *(Cada carpeta contiene sus archivos `.java` correspondientes)*
