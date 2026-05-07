@@ -15,5 +15,6 @@ Las actividades están organizadas en carpetas:
 - `A07` - Framework Collection. Manipulación de índices y elementos.
 - `A08` - Framework Collection. Búsqueda, comparación y ordenación.
 - `A09` - Framework Collection. Introduccion a conjuntos (Set).
+- `A10` - Framework Collection. Gestión de socios y conversiones.
 
 *(Cada carpeta contiene sus archivos `.java` correspondientes)*
