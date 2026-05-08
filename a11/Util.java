@@ -73,8 +73,8 @@ public class Util {
     }
 
     // Verifica si un producto existe
-    public static boolean existeProducto(Map<String, Integer> almacen, String codProducto) {
-        return almacen.containsKey(codProducto);
+    public static <K, V> boolean existeKey(Map<K, V> map, K key) {
+        return map.containsKey(key);
     }
 
 }
