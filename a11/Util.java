@@ -70,11 +70,5 @@ public class Util {
     public static String pideCodigoProducto(Scanner sc) {
         System.out.print("Introduce código de producto: ");
         return sc.nextLine();
-    }
-
-    // Verifica si un producto existe
-    public static <K, V> boolean existeKey(Map<K, V> map, K key) {
-        return map.containsKey(key);
-    }
-
+    } 
 }

@@ -24,7 +24,7 @@ public class Main {
                     System.out.println("Añadiendo un producto...");
                     codProducto = Util.pideCodigoProducto(sc);
                     
-                    if (!Util.existeKey(almacen, codProducto)) {
+                    if (!almacen.containsKey(codProducto)) {
                         stock = Util.pideNumStock(sc);
                         almacen.put(codProducto, stock);
                     } else {
@@ -37,7 +37,7 @@ public class Main {
                     System.out.println("Borrando un producto...");
                     codProducto = Util.pideCodigoProducto(sc);
                     
-                    if (Util.existeKey(almacen, codProducto)) {
+                    if (almacen.containsKey(codProducto)) {
                         almacen.remove(codProducto);
                     } else {
                         System.out.println("No existe un producto con ese código");
@@ -49,7 +49,7 @@ public class Main {
                     System.out.println("Actualizando stock...");
                     codProducto = Util.pideCodigoProducto(sc);
                     
-                    if (Util.existeKey(almacen, codProducto)) {
+                    if (almacen.containsKey(codProducto)) {
                         stock = Util.pideNumStock(sc);
                         almacen.put(codProducto, stock);
                     } else {
