@@ -67,12 +67,11 @@ public class Main {
                         // Opción 1: forEach de Java 8+
                         almacen.forEach((clave, valor) -> 
                             System.out.println(clave + " | " + valor + " unidades"));
-                        /* Opción 2: con entrySet
-                        Set<Map.Entry<String, Integer>> productos = almacen.entrySet();
-                        for (Map.Entry<String, Integer> producto : productos) {
-                            System.out.println(producto.getKey() + " | " + producto.getValue() + " unidades");
-                        }
-                        */
+                        /* Opción 2: con keySet()
+                        for (String codigo : almacen.keySet()) {
+                            System.out.println("\n"+codigo + " | " + almacen.get(codigo) + " unidades");
+                        } */
+                        
                     }
                 }
             }
