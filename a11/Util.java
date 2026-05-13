@@ -1,7 +1,6 @@
 package a11;
 
 import java.util.InputMismatchException;
-import java.util.Map;
 import java.util.Scanner;
 
 public class Util {
